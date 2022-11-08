@@ -1,10 +1,12 @@
 import React from "react";
 
 
-export default function Home(){
+
+export default function Hello({name}){
+    
    return(
     <>
-    <h1>Hello World</h1>
+    <h1>Hello {name}</h1>
     </>
    )
 }
